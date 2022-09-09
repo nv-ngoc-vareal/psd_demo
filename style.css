@@ -1,0 +1,15 @@
+#images {
+  margin-top: 1rem;
+}
+
+#inner-dropzone {
+  display: none;
+  margin-top: 1rem;
+  width: 99%;
+  height: 700px;
+  background-color: antiquewhite;
+}
+
+.drag-drop {
+  position: relative;
+}
