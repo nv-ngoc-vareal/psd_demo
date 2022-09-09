@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Psd.js</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <input type="file" accept=".psd" id="file">
+  <button id="btn-download">Download PDF</button>
+  <button id="btn-selected-download">Download Selected PDF</button>
+  <input type="file" accept=".jpg" id="upload-image">
+  <div class="container">
+    <div id="inner-dropzone" class="dropzone"></div>
+    <div id="images"></div>
+  </div>
+  <script src='https://rawgit.com/meltingice/psd.js/master/dist/psd.min.js'></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/interactjs/dist/interact.min.js"></script>
+  <script src="./script.js"></script>
+</body>
+
+</html>
